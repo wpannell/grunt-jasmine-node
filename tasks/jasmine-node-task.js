@@ -7,7 +7,8 @@ module.exports = function(grunt) {
 
     // Build all of the options
     var options = this.options({
-      forceExit: false
+      forceExit: false,
+      growl: true
     }, jasmine.defaults);
 
     options.specFolders = this.filesSrc;
